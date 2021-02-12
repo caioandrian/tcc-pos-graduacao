@@ -6,12 +6,8 @@ Testes de Integração para identificar falhas antecipadamente: Um estudo de cas
 <br><br>
 Ferramenta utilizada: Cypress versão 3.6.0
 <br><br>
-<b>Arquivo package.json:</b><br><br>
-"dependencies": {<br>
-    "cypress": "^3.6.0",<br>
-    "cypress-localstorage-commands": "^1.2.1",<br>
-    "cypress-xpath": "^1.6.0"<br>
-},<br>
-"devDependencies": {<br>
-    "start-server-and-test": "^1.11.3"<br>
-}<br>
+
+<b>Instalar as Dependências Complementares para o projeto</b>:<br>
+- mpm install cypress-xpath<br>
+- npm i --save-dev cypress-localstorage-commands<br>
+- npm install --save-dev start-server-and-test (é possível que não tenha sido necessário utilizar)<br>
