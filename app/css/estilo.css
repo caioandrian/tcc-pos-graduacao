@@ -1,0 +1,168 @@
+﻿body{
+	font-family:Tahoma;
+	font-size: 14px;
+	padding-top: 20px;
+}
+
+.container-fluid{
+	margin-bottom: 100px;
+	width: 100%;
+}
+
+div{
+	position: relative; 
+	float: left;
+}
+
+ul{
+	list-style:none;
+	padding-right: 40px;
+}
+
+ul label{
+	width:100px;
+	float:left;
+}
+
+#frmCadastro{
+	border:solid 1px;
+	padding-top: 5px
+}
+
+#tblListar thead{
+	background:rgb(32, 78, 68);
+	text-align: center;
+	color: white;
+	font-size: 16px
+}
+
+#tblListar, #tabelaUltimoProdutoFavorito{
+	width:100%;
+	border:solid 1px;
+	text-align:left;
+	border-collapse:collapse; 
+}
+
+#tblListar tbody tr, #tabelaUltimoProdutoFavorito tbody tr{
+	border:solid 1px;
+	height:30px;
+}
+
+td,th{
+	text-align: center;
+}
+
+#tblListarCarrinho thead{
+	background:rgb(31, 39, 63);
+	text-align: center;
+	color: white;
+	font-size: 16px
+}
+
+#tblListarCarrinho{
+	width:100%;
+	border:solid 1px;
+	text-align:left;
+	border-collapse:collapse; 
+}
+
+#tblListarCarrinho tbody tr{
+	border:solid 1px;
+	height:30px;
+}
+
+.img_home{
+	width: 100%;
+	height: auto;
+}
+
+#divFormulario{
+	display: none;
+}
+#divFormulario, #tabelaProdutos{
+	width: 100%;
+}
+
+.subtitulo{
+	padding: 5px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#divModoEscuro{
+	text-align: right;
+}
+
+.modoEscuro{
+ 	background-color: #ccc;
+}
+
+.modoClaro{
+	background-color: white;
+}
+
+.ultimo_Clique{
+	border: 3px solid brown
+}
+
+.row{
+	width: 100%;
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	margin-top: 20px
+}
+
+.divFotos{
+	margin-top: 10px;
+}
+
+#btnAtualizarLista{
+	float: right; 
+	margin-bottom: 10px
+}
+
+hr{
+	background-color:black;
+}
+
+.custom-select, .custom-input{
+	width: 100%;
+	height: 30px;
+}
+
+li{
+	margin-top: 10px;
+}
+
+#btnCriarNovoProduto{
+	transform: translateY(80%);
+}
+
+.exibir{
+	display: block;
+}
+
+.esconder{
+	display: none;
+}
+
+.formButton{
+	margin-left: 10px;
+}
+
+#divAlertaAuth{
+	margin-top: 20px; 
+	width: 100%;
+}
+
+#divAlertaAuth div{
+	padding: 40px;
+}
+
+@media (min-width: 768px) {
+	.row {
+	  display: flex;
+	  flex-wrap: wrap;
+	}
+}

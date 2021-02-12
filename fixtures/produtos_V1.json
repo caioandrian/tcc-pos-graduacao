@@ -1,0 +1,5 @@
+[
+    {"Codigo":"1","Nome":"Smartphone E6","Marca":"Motorola","Cor":"Vermelho","Estoque":6, "Qtde": 1, "GarantiaEstendida": "1 Ano(s)", "GarantiaMaxEstendida":"1 Ano(s)"},
+    {"Codigo":"2","Nome":"Smartphone X50","Marca":"Nokia","Cor":"Amarelo","Estoque":3, "Qtde": 1, "GarantiaEstendida": "Sem Garantia Estendida", "GarantiaMaxEstendida":"Sem Garantia Estendida"},
+    {"Codigo":"3","Nome":"Smartphone ZenFone","Marca":"Motorola","Cor":"Cinza","Estoque":10, "Qtde": 1, "GarantiaEstendida": "3 Ano(s)", "GarantiaMaxEstendida":"3 Ano(s)"}
+]

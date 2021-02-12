@@ -1,0 +1,83 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+
+	<!-- Bootstrap JS -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="js/funcoes.js"></script>
+	
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!--<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>-->
+	
+	<link rel="stylesheet" href="css/estilo.css" type="text/css"/>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div id="logo" class="col-xs-2">
+				<img src="./images/logo.png" width="150px" height="auto"/>
+			</div>
+
+			<div id="divFormularioPesquisa" class="col-xs-6">
+				<form id="frmPesquisarProduto" style="transform: translate(20%, 10%);">
+					<label for="txtPesquisarProduto">Pesquisar Por</label>
+					<input type="text" id="txtPesquisarProduto" placeholder="...">
+					<button type="submit" class="btn btn-primary"><i class="glyphicon glyphicon-search"></i></button>
+				</form>
+			</div>
+
+			<div id="divModoEscuro" class="col-xs-4">
+				<div style="transform: translate(90%, 20%);">
+					<label>Ativar Modo Escuro</label>
+					<input type="checkbox" id="checkBoxModoEscuro">
+				</div>
+			</div>
+
+			<div class="col-xs-12">
+				<hr>
+			</div>
+		</div>
+
+		<div id="divAlertaAuth" class="esconder">
+			<div class="row">
+				<div class="alert-danger col-xs-12" style="text-align: center;">Autorização Inválida</div>
+			</div>
+		</div>
+
+		<div id="conteudo">
+			<div class="row" style="margin-top: 20px">
+				
+				<div id="titulo_meu_carrinho" class="col-xs-12">
+					<h3><i class='glyphicon glyphicon-shopping-cart' alt='carrinho_icone'> </i> Meu Carrinho</h3>
+				</div>
+			</div>
+	
+			<div class="row">
+				<div id="tabelaProdutosCarrinho" class="col-xs-12">
+					<table id="tblListarCarrinho" class="table table-hover table-sm">
+						
+					</table>
+				</div>
+				<div class="col-xs-12">
+					<p>(*) Campos obrigatórios</p>
+				</div>
+			</div>
+	
+			<div class="row">
+				<div class="col-xs-6">
+					<label for="txtFrete">Calcular Frete</label>
+					<input type="text" name="txtFrete" id="txtFrete" placeholder="Digitar seu CEP"/>
+				</div>
+	
+				<div class="col-xs-6" style="text-align: right;">
+					<button id="btnContinuarCompra" class="btn btn-success">Finalizar Compra</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
